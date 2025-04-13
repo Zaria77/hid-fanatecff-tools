@@ -27,3 +27,5 @@ if __name__ == "__main__" :
 
     if args.turn_off_light :
         turn_off_light()
+    else :
+        parser.print_help()
